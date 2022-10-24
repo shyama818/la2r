@@ -1,0 +1,22 @@
+Package: lar
+Title: R package for la-r 
+Version: 0.1.0
+Authors@R: 
+    person("Shinichi", "Yamada", , "shyama818@gmail.com", role = c("aut", "cre"))
+Description: R functions used in la-r
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+	plyr,
+	stringr,
+	readr,
+	papeR,
+    ggplot2,
+	dplyr,
+    car,
+    ggplot2,
+    Rcpp,
+    RcppArmadillo
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
