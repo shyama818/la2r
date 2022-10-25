@@ -25,6 +25,6 @@ survdat and survcen.
 Create dataset for survival curve
 }
 \examples{
-survival_data(x, "Time", "Event", "AgeCat", c("na.omit"))
+survival_data(demo, "Time", "Event", "AgeCat", c("na.omit"))
 
 }

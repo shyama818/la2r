@@ -24,6 +24,6 @@ This function immplements kruskal.test after checking that each group in the inp
 and at least 1 record for each level of the factor of the group variable.
 }
 \examples{
-kruskal2_wrap(x, "WeightCat", "AgeCat", "na.omit")
+kruskal2_wrap(demo, "WeightCat", "AgeCat", "na.omit")
 
 }

@@ -18,5 +18,5 @@ N
 New version of the length function which can handle NA's: if na.rm==T, it doesn't count them
 }
 \examples{
-length2(x, na.rm=TRUE)
+length2(demo, na.rm=TRUE)
 }

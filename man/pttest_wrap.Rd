@@ -23,6 +23,6 @@ pttest_result.
 This function immplements t.test with the parameter paired = TRUE after checking that each group in the input dataset has at least 2 non-null records.
 }
 \examples{
-pttest_wrap(x, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
+pttest_wrap(demo, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
 
 }

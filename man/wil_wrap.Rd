@@ -7,13 +7,13 @@
 wil_wrap(x0, lhs, rhs, paracode)
 }
 \arguments{
+\item{x0}{dataframe}
+
 \item{lhs}{A character string which is name of the main variable of numeric type}
 
 \item{rhs}{A character string which is name of the group variable of factor type with two levels}
 
 \item{paracode}{A character vector which is used for the specification of the 4 parameters (alternative, correct, conf.level, na.action).}
-
-\item{x}{dataframe}
 }
 \value{
 an R List which contains one dataframe;
@@ -23,6 +23,6 @@ wil_ranksum_result.
 This function immplements wilcox.test after checking that each group in the input dataset has at least 2 non-null records
 }
 \examples{
-wil_wrap(x, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+wil_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
 
 }

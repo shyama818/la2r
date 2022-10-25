@@ -1481,7 +1481,7 @@ labels(ot1) <- c("the value of the t-statistic", "the degrees of freedom for the
 #'    pttest_result.
 #'
 #' @examples
-#' pttest_wrap(x, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
+#' pttest_wrap(demo, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
 #'
 #' @export
 pttest_wrap <- function(x0, lhs, rhs, paracode) {
@@ -1509,7 +1509,7 @@ labels(ot1) <- c("the value of the t-statistic", "the degrees of freedom for the
 #' @return N
 #'
 #' @examples
-#' length2(x, na.rm=TRUE)
+#' length2(demo, na.rm=TRUE)
 # 
 length2 <- function (x, na.rm=TRUE) {
     if (na.rm) sum(!is.na(x))
@@ -1573,7 +1573,7 @@ summary0 <- function(x, var, na.rm0) {
 #'    summary_result.
 #'
 #' @examples
-#' summary_wrap(x, "BMI", "TRUE")
+#' summary_wrap(demo, "BMI", "TRUE")
 #'
 #' @export
 summary_wrap <- function(x, var, na.rm0) {
@@ -1597,7 +1597,7 @@ summary_wrap <- function(x, var, na.rm0) {
 #'    summary_result.
 #'
 #' @examples
-#' summaryN_wrap(x, "AgeCat", "c(NA, NaN)")
+#' summaryN_wrap(demo, "AgeCat", "c(NA, NaN)")
 #'
 #' @export
 summaryN_wrap <- function(x, var, exclude0) {
@@ -1625,7 +1625,7 @@ summaryN_wrap <- function(x, var, exclude0) {
 #'    chitest_result, chitest_count and chitest_check.
 #'
 #' @examples
-#' chisq_wrap(x, "Sex", "AgeCat", "TRUE")
+#' chisq_wrap(demo, "Sex", "AgeCat", "TRUE")
 #'
 #' @export
 chisq_wrap <- function(x0, lhs, rhs, correct0) {
@@ -1688,7 +1688,7 @@ chisq_wrap <- function(x0, lhs, rhs, correct0) {
 #' This function immplements aov and Anova in car package after checking that each group in the input dataset has at least 2 non-null records 
 #' and at least 1 record for each level of the factor of the group variable.
 #'
-#' @param x0 dataframe
+#' @param x dataframe
 #' @param lhs A character string which is name of the main variable of numeric type
 #' @param rhs A character string which is name of the group variable of factor type with multiple levels
 #' @param paracode A character vector which is used for the specification of the parameter na.action.
@@ -1697,7 +1697,7 @@ chisq_wrap <- function(x0, lhs, rhs, correct0) {
 #'    anova1_type1, anova1_type2, anova1_type3 and anova1_equalVariance_check.
 #'
 #' @examples
-#' anova1_wrap(x, "BMI", "AgeCat", c("na.omit"))
+#' anova1_wrap(demo, "BMI", "AgeCat", c("na.omit"))
 #'
 #' @export
 anova1_wrap <- function(x, lhs, rhs, paracode) {
@@ -1774,7 +1774,7 @@ labels(ot3) <- c("the value of the F-statistic for the intercept and the residua
 #'    kruskal_result.
 #'
 #' @examples
-#' kruskal_wrap(x, "BMI", "AgeCat", "na.omit")
+#' kruskal_wrap(demo, "BMI", "AgeCat", "na.omit")
 #'
 #' @export
 kruskal_wrap <- function(x, lhs, rhs, naaction) {
@@ -1814,7 +1814,7 @@ kruskal_wrap <- function(x, lhs, rhs, naaction) {
 #'    kruskal_result and kruskal_count.
 #'
 #' @examples
-#' kruskal2_wrap(x, "WeightCat", "AgeCat", "na.omit")
+#' kruskal2_wrap(demo, "WeightCat", "AgeCat", "na.omit")
 #'
 #' @export
 kruskal2_wrap <- function(x, lhs, rhs, naaction) {
@@ -1858,7 +1858,7 @@ kruskal2_wrap <- function(x, lhs, rhs, naaction) {
 #'    survdat and survcen.
 #'
 #' @examples
-#' survival_data(x, "Time", "Event", "AgeCat", c("na.omit"))
+#' survival_data(demo, "Time", "Event", "AgeCat", c("na.omit"))
 #'
 #' @export
 survival_data <- function(x0, lhs, rhs, rhs2, paracode) {
@@ -2025,7 +2025,7 @@ lower=outtest$lower, upper=outtest$upper, row.names = NULL)
 #'
 #' This function immplements wilcox.test after checking that each group in the input dataset has at least 2 non-null records
 #'
-#' @param x dataframe
+#' @param x0 dataframe
 #' @param lhs A character string which is name of the main variable of numeric type
 #' @param rhs A character string which is name of the group variable of factor type with two levels
 #' @param paracode A character vector which is used for the specification of the 4 parameters (alternative, correct, conf.level, na.action).
@@ -2034,7 +2034,7 @@ lower=outtest$lower, upper=outtest$upper, row.names = NULL)
 #'    wil_ranksum_result.
 #'
 #' @examples
-#' wil_wrap(x, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+#' wil_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
 #'
 #' @export
 wil_wrap <- function(x0, lhs, rhs, paracode) {
@@ -2058,7 +2058,7 @@ wil_wrap <- function(x0, lhs, rhs, paracode) {
 #'
 #' This function immplements wilcox.test after checking that each group in the input dataset has at least 2 non-null records
 #'
-#' @param x dataframe
+#' @param x0 dataframe
 #' @param lhs A character string which is name of the main variable of ordered factor type
 #' @param rhs A character string which is name of the group variable of factor type with two levels
 #' @param paracode A character vector which is used for the specification of the 4 parameters (alternative, correct, conf.level, na.action).
@@ -2067,7 +2067,7 @@ wil_wrap <- function(x0, lhs, rhs, paracode) {
 #'    wil_ranksum_result and wil_ranksum_count.
 #'
 #' @examples
-#' wil2_wrap(x, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+#' wil2_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
 #'
 #' @export
 wil2_wrap <- function(x0, lhs, rhs, paracode) {

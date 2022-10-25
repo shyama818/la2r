@@ -24,6 +24,6 @@ This function immplements chisq.test after checking that the number of the row a
 of the input dataset are both at least 2.
 }
 \examples{
-chisq_wrap(x, "Sex", "AgeCat", "TRUE")
+chisq_wrap(demo, "Sex", "AgeCat", "TRUE")
 
 }

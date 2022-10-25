@@ -21,6 +21,6 @@ summary_result.
 Compute summary statistics of a continuous variable
 }
 \examples{
-summary_wrap(x, "BMI", "TRUE")
+summary_wrap(demo, "BMI", "TRUE")
 
 }

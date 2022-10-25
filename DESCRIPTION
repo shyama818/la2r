@@ -11,11 +11,11 @@ Imports:
 	plyr,
 	stringr,
 	readr,
-	papeR,
+	Hmisc,
+    papeR,
     ggplot2,
 	dplyr,
     car,
-    ggplot2,
     Rcpp,
     RcppArmadillo
 Roxygen: list(markdown = TRUE)

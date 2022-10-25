@@ -7,13 +7,13 @@
 anova1_wrap(x, lhs, rhs, paracode)
 }
 \arguments{
+\item{x}{dataframe}
+
 \item{lhs}{A character string which is name of the main variable of numeric type}
 
 \item{rhs}{A character string which is name of the group variable of factor type with multiple levels}
 
 \item{paracode}{A character vector which is used for the specification of the parameter na.action.}
-
-\item{x0}{dataframe}
 }
 \value{
 an R List which contains 4 dataframes;
@@ -24,6 +24,6 @@ This function immplements aov and Anova in car package after checking that each 
 and at least 1 record for each level of the factor of the group variable.
 }
 \examples{
-anova1_wrap(x, "BMI", "AgeCat", c("na.omit"))
+anova1_wrap(demo, "BMI", "AgeCat", c("na.omit"))
 
 }

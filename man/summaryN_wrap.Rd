@@ -21,6 +21,6 @@ summary_result.
 Compute summary statistics of a categorical variable
 }
 \examples{
-summaryN_wrap(x, "AgeCat", "c(NA, NaN)")
+summaryN_wrap(demo, "AgeCat", "c(NA, NaN)")
 
 }
