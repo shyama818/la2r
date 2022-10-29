@@ -1,10 +1,12 @@
-Package: lar
-Title: R package for la-r 
-Version: 0.1.0
+Package: la2r
+Title: R functions for data handling, statistics and machine learning in la-r
+Version: 1.0.0
+Author:  Shinichi Yamada <shyama818@gmail.com>
+Maintainer:  Shinichi Yamada <shyama818@gmail.com>
 Authors@R: 
     person("Shinichi", "Yamada", , "shyama818@gmail.com", role = c("aut", "cre"))
-Description: R functions used in la-r
-License: GPL-2
+Description: This package contains R functions for data handling, statistics and machine learning in la-r (Layered Analysis for R).
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
@@ -17,6 +19,7 @@ Imports:
 	dplyr,
     car,
     Rcpp,
-    RcppArmadillo
+    RcppArmadillo,
+    la2rcpp
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
