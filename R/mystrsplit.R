@@ -15,6 +15,7 @@
 #' mystrsplit("There exist multiple records for each realisation of the variables.", " ")
 #' }
 #'
+#' @export
 mystrsplit <- function(string, dlm){
 spl <- strsplit(string, dlm)[[1]]
 len1 <- str_length(string)

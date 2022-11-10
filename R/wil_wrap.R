@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' wil_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+#' wil_wrap(demo, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
 #' }
 #'
 #' @export

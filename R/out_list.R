@@ -12,9 +12,9 @@
 #'
 #' @examples
 #' \dontrun{
-#' out_list(demo, "demolist1", c("Treatment", "Sex"), c("Agecat", "Ethnic", "BMI", "Weight", "Height"), 2, 
-#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/anova/anova_type3/table011/___show",
-#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/anova/anova_type3/table011/___info/___levels")
+#' out_list(demo, "demolist1", c("Treatment", "Sex"), c("AgeCat", "Ethnic", "BMI", "Weight", "Height"), 2, 
+#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/anova/anova_type3/table011/___show",
+#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/anova/anova_type3/table011/___info/___levels")
 #' }
 #'
 #' @export

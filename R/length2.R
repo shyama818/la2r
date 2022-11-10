@@ -11,7 +11,8 @@
 #' \dontrun{
 #' length2(demo, na.rm=TRUE)
 #' }d
-# 
+#' 
+#' @export
 length2 <- function (x, na.rm=TRUE) {
     if (na.rm) sum(!is.na(x))
     else       length(x)

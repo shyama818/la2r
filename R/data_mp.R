@@ -19,6 +19,7 @@
 #' data_mp(demo, c("Treatment", "Sex", "Ethnic"), BMI, 1, "meanSE", TRUE, 1, 2)
 #' }
 #'
+#' @export
 data_mp <- function(dsgroup, listStrings, mainString, type, statString, narmString, digitString, digitString2){
 if (is.null(listStrings)){
     spl <- dsgroup[, mainString]

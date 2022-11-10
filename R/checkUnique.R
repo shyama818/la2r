@@ -10,9 +10,10 @@
 #'
 #' @examples
 #' \dontrun{
-#' checkUnique(demo, c("BMI", "SEX"), 1, "There exist multiple records for each realisation of the variables.")
+#' checkUnique(demo, c("BMI", "Sex"), 1, "There exist multiple records for each realisation of the variables.")
 #' }
 #'
+#' @export
 checkUnique <- function(x, listStrings, type, text) {
     if (length(listStrings) > 0){
     listV <- dstring(listStrings)

@@ -21,4 +21,5 @@ New version of the length function which can handle NA's: if na.rm==T, it doesn'
 \dontrun{
 length2(demo, na.rm=TRUE)
 }d
+
 }

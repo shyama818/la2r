@@ -40,7 +40,9 @@ Delete the columns in Del of training dataset, test dataset and validation datas
 }
 \examples{
 \dontrun{ 
-modify_spl(traindata0,testdata0,vardata0,c(1,1,1,1,1,1,1,1,0,0,0,0,0,0,0),c("BSSYS","BSDIA","BLWT","BLHT","AGECAT","WT2CLS","SEX","TRTGRP","ELIG","ELIG","ELIG","ELIG","CRCLCT","CRCLCT","CRCLCT"),c("BSSYS","BSDIA","BLWT","BLHT","AGECAT","WT2CLS","SEX","TRTGRP","ELIG___1","ELIG___2","ELIG___3","ELIG___4","CRCLCT___1","CRCLCT___2","CRCLCT___3"))
+modify_spl(traindata0,testdata0,vardata0,c(1,1,1,1,1,1,1,1,0,0,0,0,0,0,0),
+c("Bssys","Bsdia","Blwt","Blht","AgeCat","Wt2Cls","Sex","treatment","Elig","Elig","Elig","Elig","Crclct","Crclct","Crclct"),
+c("Bssys","Bsdia","Blwt","Blht","AgeCat","Wt2Cls","Sex","treatment","Elig___1","Elig___2","Elig___3","Elig___4","Crclct___1","Crclct___2","Crclct___3"))
 }
- 
+
 }

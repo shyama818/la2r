@@ -22,7 +22,7 @@ the normalized variable = the numeric variable (lhs) - the mean of the numeric v
 }
 \examples{
 \dontrun{
-datacen(demo, "BMI", "SEX")
+datacen(demo, "BMI", "Sex")
 }
 
 }

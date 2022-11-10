@@ -9,9 +9,10 @@
 #'
 #' @examples
 #' \dontrun{
-#' table_strat_s1(demo, c("Ethnic", "Sex", "Agecat", "Treatment"))
+#' table_strat_s1(demo, c("Ethnic", "Sex", "AgeCat", "Treatment"))
 #' }
 #'
+#' @export
 table_strat_s1 <- function(dsgroup, colStrings){
 
 colV <- dstring(colStrings)

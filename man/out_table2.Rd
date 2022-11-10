@@ -62,9 +62,9 @@ output tables with the total row and column for the subsets.
 }
 \examples{
 \dontrun{
-out_table2(demoM, demoC, demoR, demoT, "demotable1", "BMI", c("Ethnic", "Sex"), c("Agecat", "Treatment"), c("Elig"), 1, "meanSE", TRUE, 1, 2, 
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___show",
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___info/___levels")
-}d
+out_table2(demoM, demoC, demoR, demoT, "demotable1", "BMI", c("Ethnic", "Sex"), c("AgeCat", "Treatment"), c("Elig"), 1, "meanSE", TRUE, 1, 2, 
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___show",
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___info/___levels")
+}
 
 }

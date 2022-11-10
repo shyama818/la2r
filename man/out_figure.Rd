@@ -41,10 +41,10 @@ we immplement a function given by .fun for each subset and output a figure.
 }
 \examples{
 \dontrun{
-out_figure(demo, "demolist1", c("Ethnic", "Sex"), c("Agecat", "Treatment"), 1, 
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/barplot/___show",
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/barplot/___info/___levels", .fun = function(xx, yy) {
-ggplot0 <- ggplot(data=xx, aes(x=Agecat, y=stat(count), fill=Treatment)) + 
+out_figure(demo, "demolist1", c("Ethnic", "Sex"), c("AgeCat", "Treatment"), 1, 
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/barplot/___show",
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/barplot/___info/___levels", .fun = function(xx, yy) {
+ggplot0 <- ggplot(data=xx, aes(x=AgeCat, y=stat(count), fill=Treatment)) + 
 geom_bar(stat="count", position=position_stack()) + 
 labs(title ="Bar Plot of stat(count) based on Agecat", subtitle = yy) + 
 theme(plot.title = element_text(hjust = 0.5)) + 

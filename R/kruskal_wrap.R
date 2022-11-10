@@ -31,7 +31,7 @@ kruskal_wrap <- function(x, lhs, rhs, naaction) {
     }
     output <- NULL
     if (length(spl) == l1 & mcon1 == TRUE) {
-        outtest <- kruskal.test(x[,lhs]~x[,rhs], data=x, na.action = naaction)
+        outtest <- kruskal.test(reformulate(rhs, lhs), data=x, na.action = naaction)
         ot1 <- data.frame(statistic=outtest$statistic, parameter=outtest$parameter, p.value=outtest$p.value, row.names = NULL)
         labels(ot1) <- c("the Kruskal-Wallis rank sum statistic", "the degrees of freedom of the approximate chi-squared distribution", "the p-value for the test")
 

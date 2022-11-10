@@ -14,6 +14,7 @@
 #' simple_mat(adj, inmat)
 #' }
 #'
+#' @export
 simple_mat <- function(indata, inmat){
 
 col_name <- colnames(indata)

@@ -25,7 +25,7 @@ and at least 1 record for each level of the factor of the group variable.
 }
 \examples{
 \dontrun{
-anova1_wrap(demo, "BMI", "AGECAT", "na.omit")
+anova1_wrap(demo, "BMI", "AgeCat", "na.omit")
 }
 
 }

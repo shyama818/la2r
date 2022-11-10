@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' anova1_wrap(demo, "BMI", "AGECAT", "na.omit")
+#' anova1_wrap(demo, "BMI", "AgeCat", "na.omit")
 #' }
 #'
 #' @export
@@ -31,7 +31,7 @@ anova1_wrap <- function(x, lhs, rhs, paracode) {
     }
     output <- NULL
     if (length(spl) == l1 & mcon1 == TRUE) {
-        result <- aov(lhs~rhs, data=x, na.action = paracode)
+        result <- aov(reformulate(rhs, lhs), data=x, na.action = paracode)
 
         sum <- summary(result)
         type10 <- sum[[1]]

@@ -14,7 +14,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' miss_main(demo,c("BSSYS","BSDIA","BLWT","BLHT","AGECAT","WT2CLS","SEX","TRTGRP","ELIG","CRCLCT"), c("BMI"), c(1,1,1,1,2,2,3,3,3,3), 1)
+#' miss_main(demo,c("Bssys","Bsdia","Blwt","Blht","AgeCat","Wt2Cls","Sex","treatment","Elig","Crclct"), c("BMI"), c(1,1,1,1,2,2,3,3,3,3), 1)
 #' }
 #'
 #' @export

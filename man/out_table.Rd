@@ -53,9 +53,9 @@ output tables for the subsets.
 }
 \examples{
 \dontrun{
-out_table(demo, "demotable1", "BMI", c("Ethnic", "Sex"), c("Agecat", "Treatment"), c("Elig"), 1, "meanSE", TRUE, 1, 2, 
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___show",
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___info/___levels")
+out_table(demo, "demotable1", "BMI", c("Ethnic", "Sex"), c("AgeCat", "Treatment"), c("Elig"), 1, "meanSE", TRUE, 1, 2, 
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___show",
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___info/___levels")
 }
 
 }

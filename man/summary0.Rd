@@ -23,4 +23,5 @@ Create a dataframe whose variables are mean, sd, median, min, max, q1 and q3.
 \dontrun{
 summary0(x, "Age", TRUE)
 }
+
 }

@@ -13,10 +13,11 @@
 #' 
 #' @examples
 #' \dontrun{
-#' table_header2(dp0M, dp0C, dp0R, dp0T, "All", c("Agecat", "Treatment"), c("Elig"),
-#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___show")
+#' table_header2(dp0M, dp0C, dp0R, dp0T, "All", c("AgeCat", "Treatment"), c("Elig"),
+#' "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___show")
 #' }
 #'
+#' @export
 table_header2 <- function(dp1, dp1C, dp1R, dp1T, fName, colStrings, rowStrings, path){
 
     colframe <- table_strat_s1(dp1, colStrings)

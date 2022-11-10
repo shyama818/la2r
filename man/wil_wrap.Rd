@@ -24,7 +24,7 @@ This function immplements wilcox.test after checking that each group in the inpu
 }
 \examples{
 \dontrun{
-wil_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+wil_wrap(demo, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
 }
 
 }

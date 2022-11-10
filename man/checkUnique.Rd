@@ -20,7 +20,7 @@ This function check that there is only a single record for the subset correspond
 }
 \examples{
 \dontrun{
-checkUnique(demo, c("BMI", "SEX"), 1, "There exist multiple records for each realisation of the variables.")
+checkUnique(demo, c("BMI", "Sex"), 1, "There exist multiple records for each realisation of the variables.")
 }
 
 }

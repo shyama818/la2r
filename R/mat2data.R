@@ -11,6 +11,7 @@
 #' mat2data(adj)
 #' }
 #'
+#' @export
 mat2data <- function(idata){
   if (is.data.frame(idata) == FALSE && is.list(idata) == TRUE){
     imat <- idata[[1]]

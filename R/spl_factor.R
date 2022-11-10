@@ -16,7 +16,8 @@
 #' \dontrun{
 #' spl_factor(demo, c(1,1,1,1,2,2,3,3,3,3))
 #' }
-#' 
+#'
+#' @export 
 spl_factor <- function(dsg0, vec){
 
 columnNames0 <- colnames(dsg0)

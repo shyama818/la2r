@@ -11,6 +11,7 @@
 #' levelfile(lstrings, listVars, "/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/anova/anova_type3/table11/___info/___levels")
 #' }
 #'
+#' @export
 levelfile <- function(stratStrings, stratVars, levelpath){
     for(k in 1:length(stratStrings)) {
             levelk <- levels(stratVars[[k]])

@@ -19,4 +19,5 @@ Comput mode which is the most frequent of all values of a input vector
 \dontrun{
 mymode(v)
 }
+
 }

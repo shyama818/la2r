@@ -11,9 +11,10 @@
 #'
 #' @examples
 #' \dontrun{
-#' datacen(demo, "BMI", "SEX")
+#' datacen(demo, "BMI", "Sex")
 #' }
 #'
+#' @export
 datacen <- function(dsgroup, lhs, rhs){
     datac <- ddply(dsgroup, c(rhs), 
         .fun = function(xxx) { 

@@ -28,8 +28,8 @@ This function output the headers for the table with the total row and column
 }
 \examples{
 \dontrun{
-table_header2(dp0M, dp0C, dp0R, dp0T, "All", c("Agecat", "Treatment"), c("Elig"),
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___show")
+table_header2(dp0M, dp0C, dp0R, dp0T, "All", c("AgeCat", "Treatment"), c("Elig"),
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___show")
 }
 
 }

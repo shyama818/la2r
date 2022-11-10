@@ -22,8 +22,8 @@ This function output the headers for the table
 }
 \examples{
 \dontrun{
-table_header(dp0, "All", c("Agecat", "Treatment"), c("Elig"),
-"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/TRTGRP/SEX/COUNTRY/table/___show")
+table_header(dp0, "All", c("AgeCat", "Treatment"), c("Elig"),
+"/home/shinichi/workspace/Repository/___project/test/Tree/testTree/BMI/Treatment/Sex/Country/table/___show")
 }
 
 }

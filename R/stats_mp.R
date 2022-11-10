@@ -18,6 +18,7 @@
 #' stats_mp(vector0, 1, "meanSE", TRUE, 1, 2)
 #' }
 #'
+#' @export
 stats_mp <- function(vpl, type, statString, narmString, digitString, digitString2){
     if (type==1){
         if (statString == "identity"){

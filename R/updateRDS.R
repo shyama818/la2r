@@ -12,6 +12,7 @@
 #' updateRDS(adj, c("subjectID", "adjDate", "adjCode"))
 #' }
 #'
+#' @export
 updateRDS <- function(dsgroup, nameStrings){
     nameV <- colnames(dsgroup)
     nameStrings2 <- nameStrings[nameStrings %in% nameV]

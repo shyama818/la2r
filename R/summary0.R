@@ -12,7 +12,8 @@
 #' \dontrun{
 #' summary0(x, "Age", TRUE)
 #' }
-#
+#'
+#' @export
 summary0 <- function(x, var, na.rm0) {
 
     ot1 <- data.frame(N = length2(x[[var]], na.rm=na.rm0),

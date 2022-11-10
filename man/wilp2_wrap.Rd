@@ -24,7 +24,7 @@ This function immplements wilcox.test with paired = TRUE after checking that eac
 }
 \examples{
 \dontrun{
-wilp2_wrap(demo, "BMI", "SEX", c("two.sided", "TRUE", "0.95", "na.omit"))
+wilp2_wrap(demo, "BMI", "Sex", c("two.sided", "TRUE", "0.95", "na.omit"))
 }
 
 }

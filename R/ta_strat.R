@@ -16,7 +16,7 @@
 #' @examples
 #' \dontrun{
 #' ta_strat(demo, c("Treatment", "Sex"), c("Ethnic"), .fun = function(xx) {
-#' anova1_wrap(xx, "BMI","Agecat", c("na.omit"))
+#' anova1_wrap(xx, "BMI","AgeCat", c("na.omit"))
 #' })
 #' }
 #'

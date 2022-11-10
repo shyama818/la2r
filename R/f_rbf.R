@@ -17,6 +17,7 @@
 #' f_rbf(c(0, 1, 1, 0, 1), 1e-5, 3, trainlabel, traindata, testlabel, testdata, 10, c(1, 2, 3, 4, 6, 10), 1)
 #' }
 #'
+#' @export
 f_rbf <- function(rindex,reg_param,ite_n,trainlabel,traindata,testlabel,testdata,start,c0type){
 
 findex0 <- which(rindex > 0)

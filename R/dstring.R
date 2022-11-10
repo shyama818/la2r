@@ -14,6 +14,7 @@
 #' listVars <- listV(demo)
 #' }
 #'
+#' @export
 dstring <- function(lstrings) {
   function(x) {
     ds0 <- list()

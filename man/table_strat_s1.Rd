@@ -19,7 +19,7 @@ This function generate a dataframe which contains all realization of the variabl
 }
 \examples{
 \dontrun{
-table_strat_s1(demo, c("Ethnic", "Sex", "Agecat", "Treatment"))
+table_strat_s1(demo, c("Ethnic", "Sex", "AgeCat", "Treatment"))
 }
 
 }
